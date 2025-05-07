@@ -3,6 +3,6 @@ import postsReducer from "../feauters/posts/postSlice";
 
 export const store = configureStore({
     reducer: {
-
+        posts: postsReducer
     }
 })
